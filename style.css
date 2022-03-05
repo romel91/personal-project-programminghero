@@ -1,0 +1,100 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.section_one{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10%;
+    background-image: url(personal-website/header-bg.png);
+    background-position: left;
+}
+.color_change{
+    color: tomato;
+    font-size: 45px;
+    font-weight: 700;
+}
+.one{
+    font-size: 45px;
+    font-weight: 700;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(salmon,tomato);
+    padding: 7px 15px;
+    color: white;
+    border-radius: 7px;
+    margin-top: 8%;
+}
+.add_img_one img{
+    width: 50%; 
+    margin-left: 8%;
+    margin-top: 10%;
+    
+}
+.section_two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+    background-image: url(personal-website/biography-bg.png);
+    
+}
+.add_img_two img{
+    width: 50%; 
+    margin-left: 8%;
+    margin-top: 10%;
+    
+}
+h2{
+    text-align: left;
+}
+.about_me{
+    margin-top: 5%;
+}
+.third_head_text{
+    text-align: center;
+    margin-top: 8%;
+}
+.img_align{
+    display: flex;
+    flex-direction: row;
+    background-image: url(personal-website/latest-work-bg.png);
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 10%;
+   
+}
+.first_img img{
+    width: 100%;
+}
+.second_img img{
+    width: 100%;
+}
+.third_img img{
+    width: 100%;
+}
+.client_name{
+    text-align: center;
+
+}
+.owner{
+    text-align: center;
+}
+.before_last_paragraph{
+    text-align: center;
+    
+}
+.before_last_div{
+    background-color: crimson;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5px;
+}
+.email{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-image: url(personal-website/footer-bg.png);
+}
